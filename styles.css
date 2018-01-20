@@ -30,8 +30,8 @@ html {
 
 .add_product {
     cursor: pointer;
+    padding: 10px;
     margin-left: -10px;
-    height: 35px;
     width: 106px;
     background-color: #658eff;
     color: #fff;
@@ -125,9 +125,11 @@ html {
     color: #fff;
     border-bottom: 3px #9c2c1d solid;
 }
-.remove:hover{
+
+.remove:hover {
     background-color: #b11c28;
 }
+
 .buyed {
     transition-duration: 300ms;
     cursor: pointer;
@@ -149,6 +151,34 @@ html {
     margin-top: 100px;
     margin-left: 30px;
     background-color: #fff;
+}
+
+.buy-product {
+    padding: 5px;
+    margin: 5px;
+    background-color: #dadada;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.counts-buyed{
+    background-color: #ffaa52;
+    margin: 2px;
+    padding: 2px 6px 2px 6px;
+    color: #fff;
+    border-radius: 100%;
+}
+
+.section-rest {
+    display: flex;
+}
+
+.rest-text {
+    padding: 0 0 15px 15px;
+}
+
+.buyed-text {
+    padding: 0 0 15px 15px;
 }
 
 .border_btm {
