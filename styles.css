@@ -3,43 +3,48 @@ html {
     background-color: #dadada;
 }
 
+.main {
+    display: flex;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 7% 8%;
+    display: flex;
+}
+
 .buys {
-    margin-left: 150px;
-    margin-top: 100px;
+    width: 70%;
     border-radius: 5px;
     background-color: #fff;
 }
 
-.main {
-    display: flex;
-}
-
 .input {
     padding: 15px;
-
 }
 
 #input {
-    height: 26px;
-    width: 512px;
-    padding: 3px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    border: 1px #e6e8e2 solid;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    padding: 10px;
+    width: 84%;
 }
 
 .add_product {
     cursor: pointer;
-    padding: 10px;
-    margin-left: -10px;
-    width: 106px;
-    background-color: #658eff;
+    margin-left: -1%;
+    width: 17%;
+    background-color: #8787ff;
     color: #fff;
     border: 0px;
-    border-bottom: 3px #374aa6 solid;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
+    border-radius: 0px 5px 5px 0px;
     transition-duration: 300ms;
+}
+
+.form {
+    width: 100%;
+    display: flex;
 }
 
 .add_product:hover {
@@ -59,7 +64,7 @@ html {
 .text-product {
     padding: 5px 0 0 15px;
     text-align: left;
-    width: 200px;
+    width: 30%;
     font-family: Arial;
     font-size: 14px;
 }
@@ -78,7 +83,7 @@ html {
 }
 
 .controls {
-    width: 190px;
+    width: 30%;
     margin-left: 25px;
     margin-right: 25px;
 }
@@ -103,11 +108,6 @@ html {
     background-color: rgba(198, 12, 29, 0.37);
 }
 
-.state {
-    margin-left: 35px;
-    float: right;
-}
-
 .counts {
     padding: 5px 10px 5px 10px;
     border-radius: 5px;
@@ -130,26 +130,24 @@ html {
     background-color: #b11c28;
 }
 
-.buyed {
+.bought {
     transition-duration: 300ms;
     cursor: pointer;
     background: linear-gradient(transparent, rgba(0, 0, 0, .05)) #F8F8F8;
     border: 0px;
     border-radius: 5px;
-    width: 100px;
-    height: 30px;
+    padding: 5px 25px 5px 25px;
     border-bottom: #9b9c99 3px solid;
 }
 
-.buyed:hover {
+.bought:hover {
     background: linear-gradient(transparent, rgba(0, 0, 0, .05)) #acacac;
 }
 
 .buy-list {
     border-radius: 5px;
-    width: 300px;
-    margin-top: 100px;
-    margin-left: 30px;
+    width: 28%;
+    margin-left: 2%;
     background-color: #fff;
 }
 
@@ -161,7 +159,7 @@ html {
     border-radius: 5px;
 }
 
-.counts-buyed{
+.counts-bought {
     background-color: #ffaa52;
     margin: 2px;
     padding: 2px 6px 2px 6px;
@@ -177,10 +175,22 @@ html {
     padding: 0 0 15px 15px;
 }
 
-.buyed-text {
+.bought-text {
     padding: 0 0 15px 15px;
 }
 
 .border_btm {
     border-bottom: 1px #999 solid;
+}
+
+.state {
+    width: 40%;
+}
+
+.controls-state {
+    float: right;
+}
+
+h3 {
+    padding: .2% 2%;
 }

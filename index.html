@@ -7,55 +7,66 @@
 </head>
 <body>
 <div class="main">
-    <div class="buys">
-        <div class="input">
-            <input id="input" placeholder="Text"/>
-            <button class="add_product">Add</button>
+    <div class="container">
+        <div class="buys">
+            <div class="input">
+                <div class="form">
+                    <input id="input" placeholder="Text"/>
+                    <button class="add_product">Add</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="text-product">Tomato</div>
+                <div class="controls">
+                    <button class="button delete">-</button>
+                    <span class="counts">1</span>
+                    <button class="button add">+</button>
+                </div>
+                <div class="state">
+                    <div class="controls-state">
+                        <button class="bought">Bought</button>
+                        <button class="remove">X</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product"><span class="text-product">Cheese</span>
+                <div class="controls">
+                    <button class="button delete">-</button>
+                    <span class="counts">1</span>
+                    <button class="button add">+</button>
+                </div>
+                <div class="state">
+                    <div class="controls-state">
+                        <div class="controls-state">
+                            <button class="bought">Bought</button>
+                            <button class="remove">X</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product"><span class="text-product">Potato</span>
+                <div class="controls">
+                    <button class="button delete">-</button>
+                    <span class="counts">1</span>
+                    <button class="button add">+</button>
+                </div>
+                <div class="state">
+                    <div class="controls-state">
+                        <button class="bought">Bought</button>
+                        <button class="remove">X</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="product">
-            <div class="text-product">Tomato</div>
-            <div class="controls">
-                <button class="button delete">-</button>
-                <span class="counts">1</span>
-                <button class="button add">+</button>
+        <div class="buy-list">
+            <div class="border_btm"><h3>Rest</h3></div>
+            <div class="section-rest border_btm">
+                <div class="buy-product">Tomato<span class="counts-bought">5</span></div>
+                <div class="buy-product">Cheese<span class="counts-bought">5</span></div>
+                <div class="buy-product">Potato<span class="counts-bought">5</span></div>
             </div>
-            <div class="state">
-                <button class="buyed">Buyed</button>
-                <button class="remove">X</button>
-            </div>
-        </div>
-        <div class="product"><span class="text-product">Cheese</span>
-            <div class="controls">
-                <button class="button delete">-</button>
-                <span class="counts">1</span>
-                <button class="button add">+</button>
-            </div>
-            <div class="state">
-                <button class="buyed">Buyed</button>
-                <button class="remove">X</button>
-            </div>
-        </div>
-        <div class="product"><span class="text-product">Potato</span>
-            <div class="controls">
-                <button class="button delete">-</button>
-                <span class="counts">1</span>
-                <button class="button add">+</button>
-            </div>
-            <div class="state">
-                <button class="buyed">Buyed</button>
-                <button class="remove">X</button>
-            </div>
-        </div>
-    </div>
-    <div class="buy-list">
-        <div class="border_btm"><h3 >Rest</h3></div>
-        <div class="section-rest border_btm">
-            <div class="buy-product">Tomato<span class="counts-buyed">5</span></div>
-            <div class="buy-product">Cheese<span class="counts-buyed">5</span></div>
-            <div class="buy-product">Potato<span class="counts-buyed">5</span></div>
-        </div>
-       <div class="border_btm"><h3>Buyed</h3></div>
-        <div class="was-buyed">
+            <div class="border_btm"><h3>Bought</h3></div>
+
         </div>
     </div>
 </div>
