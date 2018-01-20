@@ -1,0 +1,115 @@
+
+html {
+    background-color: #888;
+}
+
+.buys {
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.main {
+    display: flex;
+}
+
+.input {
+    padding: 15px;
+
+}
+
+#input {
+    height: 26px;
+    width: 500px;
+    padding: 3px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px #e6e8e2 solid;
+}
+
+.add_product {
+    margin-left: -10px;
+    height: 35px;
+    width: 106px;
+    background-color: #658eff;
+    color: #fff;
+    border: 0px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.add_product:hover {
+    background-color: #3f6dff;
+}
+
+.add_product:active {
+    background-color: #1b2288;
+}
+
+.product {
+    padding: 10px;
+    border-top: 1px #aaa solid;
+}
+
+.text-product {
+    font-family: Arial;
+    font-size: 14px;
+    padding-right: 150px;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    font-style: oblique;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.add {
+    background-color: #52ce48;
+}
+
+.delete {
+    background-color: rgba(249, 15, 37, 0.37);
+}
+
+.state {
+    float: right;
+}
+
+.counts {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: #ededed;
+}
+
+.remove {
+    border: 0px;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: #d8172f;
+    color: #fff;
+}
+
+.buyed {
+    background-color: #ececec;
+    border: 0px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.buy-list{
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-color: #fff;
+}
+.border_btm{
+    border-bottom: 1px #999 solid;
+}
