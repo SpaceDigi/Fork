@@ -3,23 +3,77 @@ html {
     background-color: #dadada;
 }
 
-.main {
-    display: flex;
-    width: 100%;
-}
+
 
 .container {
-    min-width: 700px;
-    width: 100%;
-    margin: 7% 8%;
-    display: flex;
-}
+    min-width: 600px;
+    width: auto;
+    margin: 7% 10%;
 
+}
+.buy-list {
+    min-width: 300px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 20%;
+    background-color: #fff;
+}
 .buys {
-    width: 70%;
+    width: 60%;
+    display: inline-block;
     border-radius: 5px;
     background-color: #fff;
 }
+
+@media screen and(max-width: 500px) {
+    .buy-list{
+        position: absolute;
+        top: 5%;
+        width: 100%;
+    }
+    .buys{
+        position: absolute;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 700px) {
+    .buy-list{
+        position: absolute;
+        margin-left: 3%;
+    }
+}
+
+.sticker{
+    padding: 1%;
+    border-radius: 10%;
+    background: #a74fff;
+    border: 1px solid #a74fff;
+    position: absolute;
+    color:#fff;
+    bottom: -93px;
+    left: 2%;
+    height: 100px;
+    transition: 300ms;
+}
+.sticker:hover{
+
+    bottom: -40px;
+    background: #3f44ff;
+}
+
+@media print {
+    .sticker{
+        background: #fff;
+        color: #000;
+    }
+    .sticker>div>b{
+        display: none;
+    }
+    
+}
+
+
+
 
 .input {
     padding: 15px;
@@ -145,13 +199,7 @@ html {
     background: linear-gradient(transparent, rgba(0, 0, 0, .05)) #acacac;
 }
 
-.buy-list {
-    min-width: 300px;
-    border-radius: 5px;
-    width: 28%;
-    margin-left: 2%;
-    background-color: #fff;
-}
+
 
 .buy-product {
     padding: 5px;
