@@ -16,8 +16,10 @@ html {
     min-width: 300px;
     display: inline-block;
     border-radius: 5px;
-    width: 20%;
     background-color: #fff;
+}
+.section-row{
+    display: flex;
 }
 .buys {
     width: 60%;
@@ -195,6 +197,19 @@ html {
     padding: 5px 25px 5px 25px;
     border-bottom: #9b9c99 3px solid;
 }
+.not-bought{
+    display: none;
+    transition-duration: 300ms;
+    cursor: pointer;
+    background: linear-gradient(transparent, rgba(0, 0, 0, .05)) #F8F8F8;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 25px 5px 25px;
+    border-bottom: #9b9c99 3px solid;
+}
+.not-bought:hover{
+    background: linear-gradient(transparent, rgba(0, 0, 0, .05)) #acacac;
+}
 
 .bought:hover {
     background: linear-gradient(transparent, rgba(0, 0, 0, .05)) #acacac;
@@ -219,7 +234,7 @@ html {
 }
 
 .section-rest {
-    display: flex;
+
 }
 
 .rest-text {
