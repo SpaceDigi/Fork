@@ -6,7 +6,7 @@
     <title>Title</title>
 </head>
 <body>
-<div class="main">
+<div >
     <div class="container">
         <div class="buys">
             <div class="input">
@@ -15,45 +15,46 @@
                     <button class="add_product">Add</button>
                 </div>
             </div>
-            <div class="product">
-                <div class="text-product">Tomato</div>
+            <div class="product" id="product_0">
+                <div class="text-product" id="label_0">Tomato</div>
                 <div class="controls">
-                    <button class="button delete">-</button>
-                    <span class="counts">1</span>
-                    <button class="button add">+</button>
+                    <button class="button delete" id="delete_0">-</button>
+                    <span class="counts" id="counts_0">1</span>
+                    <button class="button add" id="add_0">+</button>
                 </div>
                 <div class="state">
                     <div class="controls-state">
-                        <button class="bought">Bought</button>
-                        <button class="remove">X</button>
+                        <button class="bought" id="buy_0">Bought</button>
+                        <button class="remove" id="remove_0">X</button>
                     </div>
                 </div>
             </div>
-            <div class="product"><span class="text-product">Cheese</span>
-                <div class="controls">
-                    <button class="button delete">-</button>
-                    <span class="counts">1</span>
-                    <button class="button add">+</button>
+            <div class="product" id="product_1"><span class="text-product" id="label_1">Cheese</span>
+                <div class="controls" >
+                    <button class="button delete" id="delete_1">-</button>
+                    <span class="counts" id="counts_1">1</span>
+                    <button class="button add" id="add_1" title="Tool">+</button>
                 </div>
                 <div class="state">
                     <div class="controls-state">
                         <div class="controls-state">
-                            <button class="bought">Bought</button>
-                            <button class="remove">X</button>
+                            <button class="bought" id="buy_1">Bought</button>
+                            <button class="remove" id="remove_1">X</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="product"><span class="text-product">Potato</span>
+            <div class="product" id="product_2">
+                <span class="text-product" id="label_2">Potato</span>
                 <div class="controls">
-                    <button class="button delete">-</button>
-                    <span class="counts">1</span>
-                    <button class="button add">+</button>
+                    <button class="button delete" id="delete_2">-</button>
+                    <span class="counts" id="counts_2">1</span>
+                    <button class="button add" id="add_2">+</button>
                 </div>
                 <div class="state">
                     <div class="controls-state">
-                        <button class="bought">Bought</button>
-                        <button class="remove">X</button>
+                        <button class="bought" id="buy_2">Bought</button>
+                        <button class="remove" id="remove_2">X</button>
                     </div>
                 </div>
             </div>
@@ -76,5 +77,7 @@
         <div>SpaceDigi</div>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js.js"></script>
 </body>
 </html>

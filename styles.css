@@ -1,6 +1,7 @@
 
 html {
     background-color: #dadada;
+    height: 100%;
 }
 
 
@@ -50,7 +51,7 @@ html {
     border: 1px solid #a74fff;
     position: absolute;
     color:#fff;
-    bottom: -93px;
+    bottom: -10%;
     left: 2%;
     height: 100px;
     transition: 300ms;
@@ -62,7 +63,7 @@ html {
 }
 
 @media print {
-    .sticker{
+    .sticker>div{
         background: #fff;
         color: #000;
     }
